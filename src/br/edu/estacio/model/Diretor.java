@@ -13,9 +13,10 @@ public class Diretor {
 	 * @param codigo
 	 * @param nome
 	 */
-	public Diretor(int codigo, String nome){
+	public Diretor(int codigo, String nome, String função){
 		this.codigo = codigo;
 		this.nome = nome;
+		this.função = função;
 	}
 	
 	public String getFunção() {
